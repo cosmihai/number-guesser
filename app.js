@@ -71,5 +71,5 @@ function setMessage(msg, color) {
 
 // Set winning number
 function setWinningNumber() {
-  return Math.floor(Math.random()*10+1)
+  return Math.floor(Math.random()*(max-min+1)+min)
 }
